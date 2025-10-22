@@ -10,6 +10,8 @@ const About = () => {
               src={instructorImage} 
               alt="Tauane - Instrutora de Manicure" 
               className="rounded-3xl shadow-glow w-full max-w-md mx-auto"
+              style={{ imageRendering: '-webkit-optimize-contrast' }}
+              loading="eager"
             />
           </div>
           
