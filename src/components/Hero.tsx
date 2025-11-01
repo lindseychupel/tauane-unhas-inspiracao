@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <h1 className="font-playfair text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Aprenda o Segredo das Unhas Perfeitas
+            Unhas perfeitas começam Aqui! Aprenda com quem domina a técnica.
           </h1>
           <p className="font-inter text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Transforme seu talento em renda com os cursos completos de alongamento, esmaltação em gel e cuticulagem

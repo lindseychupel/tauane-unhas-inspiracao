@@ -9,30 +9,30 @@ const Courses = () => {
       title: "Cuticulagem Profissional",
       description: "Aprenda as técnicas corretas de remoção e tratamento de cutículas",
       topics: [
-        "Técnicas de preparação das unhas",
-        "Uso correto de instrumentos",
-        "Protocolos de higiene e segurança",
-        "Práticas em modelos reais"
+        "Preparação das unhas – Passo a passo para unhas limpas, preparadas e prontas para qualquer técnica.",
+        "Uso correto de instrumentos – Aprenda a manusear ferramentas com segurança e precisão profissional",
+        "Protocolos de higiene e segurança – Garanta proteção para você e suas clientes, seguindo práticas recomendadas.",
+        "Prática em modelos reais – Treine em mãos de verdade e desenvolva confiança para atuar no mercado."
       ]
     },
     {
       title: "Alongamento em Fibra",
       description: "Domine a arte do alongamento de unhas com fibra de vidro",
       topics: [
-        "Preparação e estruturação",
-        "Aplicação de fibra de vidro",
-        "Modelagem e finalização",
-        "Manutenção e remoção segura"
+        "Preparação e especificação – Saiba como preparar a unha corretamente e escolher o tipo certo de fibra.",
+        "Aplicação de fibra de vidro – Técnicas passo a passo para resultados perfeitos e duradouros",
+        "Modelagem e finalização – Alcance formatos harmoniosos e acabamento impecável.",
+        "Manutenção e remoção segura – Garanta unhas saudáveis e clientes satisfeitas."
       ]
     },
     {
       title: "Esmaltação em Gel",
       description: "Técnicas modernas de aplicação e design em gel",
       topics: [
-        "Preparação e aplicação base",
-        "Técnicas de coloração",
-        "Nail art e decorações",
-        "Acabamento profissional duradouro"
+        "Preparação da unha e aplicação da base – Passo a passo para unhas perfeitas e saudáveis",
+        "Técnicas de modelagem e alongamento – Aprenda diferentes métodos de construção em gel.",
+        "Arte de unhas e decoração – Designs criativos, tendências e recomendações para encantar clientes",
+        "Acabamento profissional – Toques finais que garantem durabilidade, brilho e qualidade."
       ]
     }
   ];
@@ -45,7 +45,7 @@ const Courses = () => {
             Cursos Disponíveis
           </h2>
           <p className="font-inter text-xl text-muted-foreground max-w-2xl mx-auto">
-            Do básico ao avançado, aprenda tudo que você precisa para se tornar uma profissional de sucesso
+            Do básico ao avançado, eu estarei ao seu lado, te guiando passo a passo para conquistar o mercado da beleza
           </p>
         </div>
 

@@ -60,7 +60,7 @@ const Testimonials = () => {
           <div className="inline-flex items-center gap-2 bg-gradient-rose px-6 py-3 rounded-full">
             <Star className="h-5 w-5 fill-accent text-accent" />
             <span className="font-inter font-semibold text-foreground">
-              Mais de 500 alunas formadas
+              Benefício extra: transforme seu cuidado em diferencial competitivo, entregando qualidade que fideliza clientes.
             </span>
           </div>
         </div>

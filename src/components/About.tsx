@@ -5,6 +5,7 @@ const About = () => {
     <section id="sobre" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          {/* Imagem da instrutora */}
           <div className="animate-slide-in-left">
             <img 
               src={instructorImage} 
@@ -15,28 +16,42 @@ const About = () => {
             />
           </div>
           
+          {/* Texto da história */}
           <div className="animate-slide-in-right">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-6">
               Conheça a Tauane
             </h2>
-            <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
-              Com mais de <span className="text-primary font-semibold">10 anos de experiência</span> no mercado de beleza, 
-              Tauane é uma manicure apaixonada pela arte das unhas e dedicada a transformar vidas através do ensino.
-            </p>
-            <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
-              Sua jornada começou pela paixão em criar unhas perfeitas, e hoje ela compartilha todo seu conhecimento 
-              e expertise com mulheres que desejam entrar no mercado da beleza ou aprimorar suas habilidades.
-            </p>
-            <p className="font-inter text-lg text-muted-foreground leading-relaxed">
-              <span className="text-primary font-semibold">Sua missão</span> é empoderar mulheres através da educação profissional, 
-              oferecendo cursos completos que vão do básico ao avançado, com técnicas modernas e práticas comprovadas no mercado.
-            </p>
-            
-            <div className="mt-8 p-6 bg-gradient-rose rounded-2xl">
-              <p className="font-inter text-foreground font-medium italic">
-                "Minha maior realização é ver minhas alunas conquistando independência financeira fazendo o que amam."
+
+            {/* Texto de storytelling */}
+            <div>
+              <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
+                Com mais de <span className="text-primary font-semibold">10 anos de experiência</span> no mercado da beleza, Tauane é uma manicure apaixonada pela arte das unhas e dedicada a transformar vidas através do ensino.
               </p>
-              <p className="font-playfair text-sm text-foreground mt-2">— Tauane</p>
+
+              <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
+                Há alguns anos, <span>Tauane</span> só queria uma renda extra. Começou fazendo unhas em casa, com um alicate simples e muita vontade de aprender. Sem imaginar, aquele pequeno sonho virou o começo de uma grande transformação.
+              </p>
+
+              <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
+                Entre uma cliente e outra, ela descobriu algo poderoso: <strong>suas mãos podiam criar muito mais do que beleza — elas criavam oportunidades.</strong>
+              </p>
+
+              <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
+                O talento que nasceu na sala de casa levou <span>Tauane</span> a conquistar espaço em salões de alto padrão, atender mulheres incríveis e viver do que ama. Mas o que realmente mudou sua história foi perceber que poderia ajudar outras mulheres a viverem o mesmo.
+              </p>
+
+              <p className="font-inter text-lg text-muted-foreground mb-6 leading-relaxed">
+                Hoje, com mais de 10 anos de experiência no mercado da beleza, <span>Tauane</span> dedica sua carreira a ensinar e inspirar. Ela criou cursos completos — do básico ao avançado — para mostrar que, com técnica, dedicação e propósito, <strong>qualquer mulher pode transformar o próprio futuro.</strong>
+              </p>
+
+            
+
+              <div className="mt-8 p-6 bg-gradient-rose rounded-2xl">
+                <p className="font-inter text-foreground font-medium italic">
+                  "Me sinto feliz e orgulhosa por ver mulheres com histórias parecidas com a minha conquistando sua independência, fazendo dinheiro com as próprias mãos e entregando qualidade."
+                </p>
+                <p className="font-playfair text-sm text-foreground mt-2">— Tauane</p>
+              </div>
             </div>
           </div>
         </div>
