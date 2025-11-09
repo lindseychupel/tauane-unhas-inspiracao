@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/tauane-unhas-inspiracao/", // 👈 ESSENCIAL para GitHub Pages
+  base: "/", // 👈 Para Vercel e outros hosts
   server: {
     host: "::",
     port: 8082, // 👈 mantém a porta que está funcionando localmente
